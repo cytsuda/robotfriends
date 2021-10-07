@@ -1,6 +1,7 @@
 import React from "react";
 
 const SearchBox = ({ searchField, searchChange }) => {
+  console.log("SearchBox");
   return (
     <div className="bg-gray-800 rounded-full relative w-3/12 border border-gray-100 border-opacity-25">
       <input
